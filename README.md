@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Description
+
+- A NextJs a SSR application that fetch images from [imgur.com](https://api.imgur.com/) , 
+
+
+
+## Technical requirements: 
+- ● Show gallery images in a grid of thumbnails;
+- ● Show image description in the thumbnail, top or bottom;
+- ● Allow selecting the gallery section: hot, top, user;
+- ● Allow including / excluding viralimages from the result set;
+- ● Allow specifying window and sort parameters;
+- ● When clicking an image in the gallery - show its details: big image, title, description, upvotes, downvotes and score.
+## Preview Demo: 
+
+<p align="center">
+  <a href="http://nextjs.org/" target="blank"><img src="https://github.com/mohamedlotfe/Imgur-next13-test/blob/master/public/img1.jpeg"  alt="Next Logo" /></a> 
+  
+  
+  
+   <a href="http://nextjs.org/" target="blank"><img src="https://github.com/mohamedlotfe/Imgur-next13-test/blob/master/public/img2.jpeg"  alt="Next Logo" /></a>
+</p>
 
 ## Getting Started
 
@@ -12,15 +34,15 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.jsx`. The page auto-updates as you edit the file.
+- You can start editing the page by modifying `app/page.jsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
